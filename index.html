@@ -38,12 +38,23 @@
         /* Add more styles as needed */
 
         /* Media queries for responsiveness */
+        /* Media queries for responsiveness */
         @media only screen and (max-width: 600px) {
-            /* Adjust styles for smaller screens */
+            body {
+                margin-left: 5%; /* Adjust the left margin for smaller screens */
+                margin-right: 5%; /* Adjust the right margin for smaller screens */
+            }
+
             section {
                 margin: 10px;
             }
+
+            iframe, video {
+                max-width: 100%; /* Make videos responsive within their container */
+                height: auto; /* Maintain the aspect ratio of the videos */
+            }
         }
+
     </style>
 </head>
 
